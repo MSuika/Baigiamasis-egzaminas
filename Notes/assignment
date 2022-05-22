@@ -1,0 +1,52 @@
+Dizainas:
+Adobe XD failas - 
+
+https://www.dropbox.com/s/y6ybsngu3euoz34/CA_EXAM.xd?dl=0
+
+
+
+
+Adobe XD dizainas web - 
+
+https://xd.adobe.com/spec/71297cf3-7ddc-40af-70c4-ce8fda78a719-0718/
+
+
+
+
+Reikalavimai:
+Panaudoti SASS
+
+Panaudoti @import
+
+Panaudoti partials (@mixin and @include)
+
+Panaudoti variables (CSS/SASS)
+
+CSS suspaustas ir su vendor prefix’ais
+
+Navigacijos juosta fiksuota viršuje
+
+Responsive dizaino implementcija (turi būti mobile)
+
+Meniu link’ai nuscrollina iki sekcijos su animacija
+
+JS
+
+Galerija (reviews sekcija)
+Tabs’ų keitimas (2 sekcija)
+
+Mobile menu su burger’iu
+
+Viską įkelti į git ir github pages
+
+Commit’inti visus pakeitimus
+
+
+
+Papildomai:
+
+Navigacijai panaudoti :before and :after efektus
+
+Sukompresuokit nuotraukas (https://compressor.io, http://optimizilla.com), maksimalus nuotraukos plotis iki 1920px
+
+Formų validacijos basic (neleisti submittinti tuščių formų, parodyti custom error message)
