@@ -1,10 +1,8 @@
 .Form-1 {
-    /* Layout Properties */
-    top: 72px;
-    left: 0px;
-    width: 1400px;
-    height: 639px;
-    img {
-        filter: opacity(0.63) drop-shadow(0 0 0 #1C1C1C);
-    }
+    width: auto;
+    height: 700px;
+    background: url("../../img/photo-1480714378408-67cf0d13bc1b.png");
+    background-size: cover;
+    background-position: center;
+    // filter: opacity(0.63) drop-shadow(0 0 0 #1C1C1C);
 }
