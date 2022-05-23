@@ -62,10 +62,6 @@
         }
 
         .forms-1-right {
-            // display: flex;
-            // flex-direction: column;
-            // align-content: center;
-            // justify-content: center;
             background: white;
             width: 360px;
             height: 424.88px;
@@ -81,7 +77,8 @@
                 width: 360px;
                 height: 57px;
                 border-radius: 5px 5px 0 0;
-                p {
+                p {        
+                    position: relative;
                     padding: 15px;
                     text-align: center;
                     font: 600 20px/24px Montserrat;
@@ -130,6 +127,7 @@
             }
 
             h3 {
+                position: relative;
                 padding: 20px 50px 10px 50px;
             }
 
