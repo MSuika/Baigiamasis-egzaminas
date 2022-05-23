@@ -102,6 +102,8 @@ nav {
         display: none;
     }
     .mobile-navigation {
+        position: absolute;
+        z-index: 1;
         padding: 0 10px 0 10px;
         display: block;
         height: auto;

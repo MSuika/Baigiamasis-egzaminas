@@ -1,8 +1,98 @@
 .Form-1 {
-    width: auto;
-    height: 700px;
-    background: url("../../img/photo-1480714378408-67cf0d13bc1b.png");
-    background-size: cover;
-    background-position: center;
-    // filter: opacity(0.63) drop-shadow(0 0 0 #1C1C1C);
+        position: relative;
+        width: auto;
+        height: 700px;
+        background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("../../img/photo-1480714378408-67cf0d13bc1b.png");
+        background-size: cover;
+        background-position: center;
+
+        .form-divs {
+            display: flex;
+            justify-content: space-around;
+            align-content: center;
+            margin-left: 150px;
+            margin-right: 150px;
+
+        .forms-1-left {
+            max-width: 500px;
+            max-height: 500px;
+            margin-top: 100px;
+            
+            img:first-of-type {
+                width: 250px;
+                height: 110px;
+            }
+
+            h2 {
+                width: 426px;
+                height: 87px;
+                color: white;
+                text-align: left;
+                font: normal normal 600 36px/43px Montserrat;
+                letter-spacing: 0px;
+            }
+
+            img:last-of-type {
+                width: 84px;
+                height: 22px;
+                background: transparent 0% 0% no-repeat padding-box;
+                opacity: 1;
+            }
+
+            p {
+                text-align: left;
+                font: normal normal 600 16px/23px Montserrat;
+                letter-spacing: 0px;
+                color: #FFFFFF;
+                opacity: 0.8;
+            }
+        }
+
+        .forms-1-right {
+            background: white;
+            max-width: 360px;
+            max-height: 424.88px;
+            padding: 0 50px 0 50px;
+            margin-top: 100px;
+
+            form {
+                .inputs-radio {
+                    display: flex;
+                    align-items: center;
+                }
+                
+                input {
+                    position: relative;
+                    appearance: none;
+                    width: 18px;
+                    height: 18px;
+                    border: solid 1px $green;
+                    border-radius: 50%;
+                }
+
+                input:before {
+                    position: absolute;
+                    top: 40%;
+                    left: 40%;
+                    content: "";
+                    width: 0%;
+                    height: 0%;
+                    background: $green;
+                    border-radius: 50%;
+                    transition: 0.3s;
+                }
+
+                input:checked:before {
+                    top: 26%;
+                    left: 26%;
+                    width: 50%;
+                    height: 50%;
+                }
+
+                input:checked + label {
+                    color: $green;
+                }
+            }
+        }
+    }
 }
