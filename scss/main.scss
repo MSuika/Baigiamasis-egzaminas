@@ -540,6 +540,7 @@
             border-radius: 5px 5px 0 0;
         }
         .price {
+            flex-wrap: wrap;
             height: 100px;
             text-align: center;
             line-height: 50px;
@@ -551,7 +552,7 @@
             span {
             padding-top: 10px;
             font: normal normal normal 64px Montserrat;
-            line-height: 100px;
+            // line-height: 100px;
             }
         }
         p:first-of-type {
@@ -577,7 +578,7 @@
             height: 6px;
             background: #41D395;
         }
-        .basic {
+        .basic, .professional, .enterprise {
             width: 343px;
         }
         .green-wider {
@@ -590,11 +591,13 @@
             }
         }
         .professional {
+            margin-bottom: 33px;
             h2 {
                 height: 93px;
             }
             .price {
                 height: 66px;
+                line-height: 50px;
             }
         }
     }
