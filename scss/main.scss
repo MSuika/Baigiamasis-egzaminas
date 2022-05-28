@@ -551,15 +551,51 @@
             span {
             padding-top: 10px;
             font: normal normal normal 64px Montserrat;
+            line-height: 100px;
             }
-            p:first-of-type {
-                background: #333333;
-                color: white;
-            }
+        }
+        p:first-of-type {
+            height: 51px;
+            background: #333333;
+            text-align: center;
+            line-height: 51px;
+            color: white;
+        }
+        p {
+            height: 40px;
+            text-align: center;
+            font: normal normal normal 14px/24px Montserrat;
+            letter-spacing: 0px;
+            color: #86878B;
+            background: white;
+            opacity: 1;
+        }
+        p:last-of-type {
+            border-radius: 0 0 5px 5px;
+        }
+        .green {
+            height: 6px;
+            background: #41D395;
         }
         .basic {
             width: 343px;
-            
+        }
+        .green-wider {
+            height: 40px;
+            P {
+                color: white;
+                text-align: center;
+                line-height: 40px;
+                background: #41D395;
+            }
+        }
+        .professional {
+            h2 {
+                height: 93px;
+            }
+            .price {
+                height: 66px;
+            }
         }
     }
     }
