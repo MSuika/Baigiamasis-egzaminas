@@ -1,9 +1,13 @@
+.dektop-navigation {
+    width: 100%;
+}
+
 nav {
     display: flex;
     align-content: center;
     justify-content: space-between;
     height: 72px;
-    width: 100%;
+    max-width: 2000px;
     background: #1C1C1C 0% 0% no-repeat padding-box;
     opacity: 1;
     overflow: hidden;
