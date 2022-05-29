@@ -239,6 +239,8 @@
 // Third section
 // Picture for third section .feature-3
 .features-3 {
+    width: 100%;
+    height: 100%;
     padding: 30px 0 30px 0;
     display: flex;
     align-content: center;
@@ -281,7 +283,7 @@
         .box:nth-last-of-type(4) {
             grid-column: 1/2;
             grid-row: 1/2;
-            background: #e27866;
+            background: #a37169;
             background-size: contain;
             
             p {
@@ -309,6 +311,10 @@
                 text-align: center;
             }
         }
+        .box:hover {
+            cursor: pointer;
+            background: #e27866;
+        }
         h2 {
             text-align: left;
             font: normal normal 600 36px/40px Montserrat;
@@ -333,16 +339,19 @@
             max-width: 400px;
             height: 380px;
             .flower {
-                cursor: pointer;
                 width: 168px;
                 height: 168px;
-                background: linear-gradient(rgba(226, 120, 102, 0.8)), url("../../img/photo-1493409137604-0901c55e4456.png");
+                background: url("../../img/photo-1493409137604-0901c55e4456.png");
                 background-position: center;
                 background-size: 200px;
                 transition: 0.3s;
                 &:hover {
+                    cursor: pointer;
+                    background: linear-gradient(rgba(226, 120, 102, 0.8)), url("../../img/photo-1493409137604-0901c55e4456.png");
                     transform: translateY(-10px);
                     box-shadow: 0px 3px 6px #00000029;
+                    background-position: center;
+                    background-size: 200px;
                 }
                 p { 
                     padding-top: 65px;
@@ -361,6 +370,15 @@
                 opacity: 1;
                 background-position: center;
                 background-size: 200px;
+                transition: 0.3s;
+                &:hover {
+                    cursor: pointer;
+                    background: linear-gradient(rgba(226, 120, 102, 0.8)), url('../../img/photo-1543364195-bfe6e4932397.png');
+                    transform: translateY(-10px);
+                    box-shadow: 0px 3px 6px #00000029;
+                    background-position: center;
+                    background-size: 200px;
+                }
             }
             .shoes {
                 grid-column: 1/3;
@@ -370,6 +388,15 @@
                 opacity: 1;
                 background-position: center;
                 background-size: 400px;
+                transition: 0.3s;
+                &:hover {
+                    cursor: pointer;
+                    background: linear-gradient(rgba(226, 120, 102, 0.8)), url('../../img/photo-1448387473223-5c37445527e7.png');
+                    transform: translateY(-10px);
+                    box-shadow: 0px 3px 6px #00000029;
+                    background-position: center;
+                    background-size: 400px;
+                }
             }
     }
 }
@@ -804,5 +831,17 @@
 
     .container-awesome {
         flex-direction: column;
+    }
+}
+@media (max-width: 1100px) {
+    .pricing-6 {
+        height: 100%;
+    }
+    .pricing {
+        display: flex;
+        flex-direction: column;
+        .plan {
+            margin-bottom: 30px;
+        }
     }
 }
