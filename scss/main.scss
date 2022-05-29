@@ -781,10 +781,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 0;
         margin-left: 20px!important;
         margin-right: 10px!important;
         height: 1400px;
+        img {
+            padding-top: 50px;
+        }
         .forms-1-left {
             padding-left: 20px;
         }
@@ -873,11 +875,5 @@
         .plan {
             margin-bottom: 30px;
         }
-    }
-}
-
-@media (max-width: 600px) {
-    html {
-        margin-left: 60px;
     }
 }
