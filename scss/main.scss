@@ -5,7 +5,7 @@
         background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("../../img/photo-1480714378408-67cf0d13bc1b.png");
         background-size: cover;
         background-position: center;
-        overflow: hidden;
+       
 
         .form-divs {
             display: flex;
@@ -239,11 +239,12 @@
 // Third section
 // Picture for third section .feature-3
 .features-3 {
+    padding: 30px 0 30px 0;
     display: flex;
     align-content: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    height: 600px;
+    height: 100%;
     background: linear-gradient(to left, rgba(102, 150, 226, 0.42), rgba(226, 120, 102, 0.42)), url("../../img/christoffer-engstrom-503481-unsplash@2x.png");
     background-size: cover;
     background-position: center;
@@ -257,7 +258,7 @@
         .text {
             padding-top: 20px;
             p {
-                padding-top: 20px;
+                padding-top: 40px;
             }
         }
         .box {
@@ -390,7 +391,7 @@
         opacity: 1;
     }
     .logo {
-        width: 167px;
+        width: 567px;
         margin-top: 100px;
         img {
             width: 400px;
@@ -428,7 +429,7 @@
 
 // Fifth section
 .awesome-5 {
-    height: 600px;
+    height: 100%;
     background: #FFFFFF;
     opacity: 1;
     padding-top: 50px;
@@ -761,7 +762,18 @@
     }
 
     .socials-2 {
+        padding: 20px 0 20px 0;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        .socials-text {
+            h3 {
+                text-align: center;
+            }
+            text-align: center;
+        }
         .logos {
+            padding-top: 20px;
             flex-wrap: wrap;
             justify-content: center;
             min-width: 100px;
@@ -769,5 +781,28 @@
                 padding-left: 10px;
             }
         }
+    }
+
+    .features-3 {
+        .text {
+            h2, p {
+                padding-bottom: 20px;
+            }
+        }
+        .container:last-child {
+            padding-top: 50px;
+        }
+    }
+
+    // about-4
+    .logo img {
+            display: none;
+        }
+    .about-text {
+        padding-right: 100px;
+    }
+
+    .container-awesome {
+        flex-direction: column;
     }
 }
