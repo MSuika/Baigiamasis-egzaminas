@@ -63,146 +63,147 @@
             }
         }
 
-        .forms-1-right {
-            background: white;
-            width: 360px;
-            height: 424.88px;
-            margin-top: 100px;
-            border-radius: 5px 5px 5px 5px;
+
+    }
+}
+// Both section 1 and section 8 forms
+.forms-1-right {
+    background: white;
+    width: 360px;
+    height: 424.88px;
+    margin-top: 100px;
+    border-radius: 5px 5px 5px 5px;
+    opacity: 1;
+
+    .p {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        background: #F5F5F5;
+        width: 360px;
+        height: 57px;
+        border-radius: 5px 5px 0 0;
+        p {        
+            position: relative;
+            padding: 15px;
+            text-align: center;
+            font: 600 20px/24px Montserrat;
+            letter-spacing: 0px;
+            color: #333333;
             opacity: 1;
-
-            .p {
-                display: flex;
-                align-self: center;
-                justify-content: center;
-                background: #F5F5F5;
-                width: 360px;
-                height: 57px;
-                border-radius: 5px 5px 0 0;
-                p {        
-                    position: relative;
-                    padding: 15px;
-                    text-align: center;
-                    font: 600 20px/24px Montserrat;
-                    letter-spacing: 0px;
-                    color: #333333;
-                    opacity: 1;
-                    span {
-                        color: $orange;
-                    }
-                }
-            }
-            
-            .your-details {
-                padding: 20px 50px 10px 50px;
-                h2 {
-                    text-align: left;
-                    font: normal normal 600 16px/24px Montserrat;
-                    letter-spacing: 0px;
-                    color: #1C1C1C;
-                    opacity: 1;
-                    max-width: 97px;
-                    max-height: 19px;
-                    cursor: default;
-                }
-
-                .bio-forms {
-                    display: flex;
-                    flex-direction: column;
-
-                    input {
-                        width: 260px;
-                        height: 40px;
-                        text-align: left;
-                        font: normal normal normal 12px/24px Montserrat;
-                        letter-spacing: 0px;
-                        color: #1C1C1C;
-                        margin-top: 5px;
-                        border: none;
-                        border-bottom: 1px solid #D8D8D8;
-                        opacity: 1;
-                        &::placeholder {
-                            color: #D8D8D8
-                        }
-                    }
-                }
-            }
-
-            h3 {
-                position: relative;
-                padding: 20px 50px 10px 50px;
-            }
-
-            .radio {
-                display: flex;
-                width: 100%;
-                padding: 20px 50px 10px 50px;
-                .inputs-radio {
-                    display: flex;
-                    align-items: center;
-                }
-                
-                input {
-                    margin-top: 5px;
-                    position: relative;
-                    appearance: none;
-                    width: 18px;
-                    height: 18px;
-                    border: solid 1px $green;
-                    border-radius: 50%;
-                }
-
-                label {
-                    padding: 0 5px 0 5px;
-                    text-align: left;
-                    font: normal normal 600 15px/27px Montserrat;
-                    letter-spacing: 0px;
-                    color: #000000;
-                    opacity: 1;
-                }
-
-                input:before {
-                    position: absolute;
-                    top: 40%;
-                    left: 40%;
-                    content: "";
-                    width: 0%;
-                    height: 0%;
-                    background: $green;
-                    border-radius: 50%;
-                    transition: 0.3s;
-                }
-
-                input:checked:before {
-                    top: 26%;
-                    left: 26%;
-                    width: 50%;
-                    height: 50%;
-                }
-
-                input:checked + label {
-                    font-weight: bold;
-                }
-            }
-
-            button {
-                cursor: pointer;
-                margin-top: 14px;
-                text-align: center;
-                width: 360px;
-                height: 57px;
-                border: none;
-                border-radius: 0 0 5px 5px;
-                background: $green;
-                font: normal normal 600 18px/24px Montserrat;
-                letter-spacing: 0px;
-                color: #FFFFFF;
-                opacity: 1;
+            span {
+                color: $orange;
             }
         }
     }
-}
+    
+    .your-details {
+        padding: 20px 50px 10px 50px;
+        h2 {
+            text-align: left;
+            font: normal normal 600 16px/24px Montserrat;
+            letter-spacing: 0px;
+            color: #1C1C1C;
+            opacity: 1;
+            max-width: 97px;
+            max-height: 19px;
+            cursor: default;
+        }
 
+        .bio-forms {
+            display: flex;
+            flex-direction: column;
+
+            input {
+                width: 260px;
+                height: 40px;
+                text-align: left;
+                font: normal normal normal 12px/24px Montserrat;
+                letter-spacing: 0px;
+                color: #1C1C1C;
+                margin-top: 5px;
+                border: none;
+                border-bottom: 1px solid #D8D8D8;
+                opacity: 1;
+                &::placeholder {
+                    color: #D8D8D8
+                }
+            }
+        }
+    }
+
+    h3 {
+        position: relative;
+        padding: 20px 50px 10px 50px;
+    }
+
+    .radio {
+        display: flex;
+        width: 100%;
+        padding: 20px 50px 10px 50px;
+        .inputs-radio {
+            display: flex;
+            align-items: center;
+        }
+        
+        input {
+            margin-top: 5px;
+            position: relative;
+            appearance: none;
+            width: 18px;
+            height: 18px;
+            border: solid 1px $green;
+            border-radius: 50%;
+        }
+
+        label {
+            padding: 0 5px 0 5px;
+            text-align: left;
+            font: normal normal 600 15px/27px Montserrat;
+            letter-spacing: 0px;
+            color: #000000;
+            opacity: 1;
+        }
+
+        input:before {
+            position: absolute;
+            top: 40%;
+            left: 40%;
+            content: "";
+            width: 0%;
+            height: 0%;
+            background: $green;
+            border-radius: 50%;
+            transition: 0.3s;
+        }
+
+        input:checked:before {
+            top: 26%;
+            left: 26%;
+            width: 50%;
+            height: 50%;
+        }
+
+        input:checked + label {
+            font-weight: bold;
+        }
+    }
+
+    button {
+        cursor: pointer;
+        margin-top: 14px;
+        text-align: center;
+        width: 360px;
+        height: 57px;
+        border: none;
+        border-radius: 0 0 5px 5px;
+        background: $green;
+        font: normal normal 600 18px/24px Montserrat;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+}
 // Second section
 .socials-2 {
     height: 105px;
@@ -613,7 +614,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 300px;
+        height: 250px;
         p, img {
                     // text-align: center;
                     padding-top: 30px;
@@ -627,9 +628,6 @@
                     opacity: 1;
                 }
                 }
-                // p:nth-of-type(even) {
-                //     height: 125px;
-                // }
     .flex-container {
         display: flex;
         justify-content: space-around;
@@ -647,13 +645,13 @@
                 color: #FFFFFF;
                 opacity: 1;
             }
-        }
         #blue-box {
             width: 240px;
             height: 110px;
             background: #6696E2;
             border: 1px solid #6696E2;
             border-radius: 8px;
+            }
         }
         #blue-box-smaller {
             width: 240px;
@@ -664,12 +662,83 @@
         }
     }
     }
-
+    .avat-box {
+        margin-top: 20px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 70px 200px;
+        grid-template-rows: auto;
+        h3 {
+            padding-top: 15px;
+            grid-column: 2/3;
+            grid-row: 1/3;
+        }
+        span {
+            padding-top: 35px;
+            grid-column: 2/3;
+            grid-row: 1/3;
+            text-align: left;
+            font: normal normal normal 14px/17px Montserrat;
+            letter-spacing: 0px;
+            color: #86878B;
+            opacity: 1;
+        }
+        .avatar {
+            position: relative;
+            grid-row: 1/2;
+            grid-column: 1/2;
+            width: 70px;
+            height: 70px;
+            background: url("../../img/avatar_2_u231-1.png");
+        }
+        .avatar::before {
+            position: absolute;
+            content: "";
+            top: -55%;
+            left: 20%;
+            border: 15px solid transparent;
+            border-right: 15px solid #6696E2;
+            transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+            border-radius: 2px;
+    }
+    }
 // Eigth section
 .contact-8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 600px;
     background: #E27866;
     opacity: 1;
+    .contact-text {
+        h2 {
+            text-align: center;
+            font: normal normal 600 36px/43px Montserrat;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            opacity: 1;
+        }
+        p {
+            margin-top: 50px;
+            text-align: left;
+            font: normal normal normal 14px/20px Montserrat;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            opacity: 1;
+        }
+    }
+    .contact-form {
+        .forms-1-right {
+            width: 390px;
+            height: 314px;
+            box-shadow: 0px 5px 6px #00000029;
+        }
+    button {
+        margin-left: 100px;
+        width: 160px;
+        border-radius: 5px;
+    }}
 }
 // Responsive
 @media (max-width: 835px) {
