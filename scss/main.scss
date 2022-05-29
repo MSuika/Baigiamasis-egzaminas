@@ -811,17 +811,35 @@
     }
 
     .features-3 {
+        height: 100%;
+        .container:first-of-type {
+            .box {
+                margin-left: 200px;
+                margin-bottom: 20px;
+            }
+            display: flex;
+            flex-direction: column;
+        }
         .text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             h2, p {
+                margin-left: 10px;
                 padding-bottom: 20px;
+                text-align: center;
             }
         }
         .container:last-child {
-            padding-top: 50px;
+            padding-top: 500px;
         }
     }
 
     // about-4
+    .about-4 {
+        height: 100%;
+        padding-bottom: 20px;
+    }
     .logo img {
             display: none;
         }
@@ -830,6 +848,16 @@
     }
 
     .container-awesome {
+        flex-direction: column;
+    }
+
+    .reviews-7 {
+        height: 100%;
+        padding-bottom: 20px;
+    }
+
+    .flex-container {
+        display: flex;
         flex-direction: column;
     }
 }

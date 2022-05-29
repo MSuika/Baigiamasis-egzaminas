@@ -8,3 +8,9 @@ $green: #41D395;
     max-width: 100%;
     max-height: 100%;
   }
+
+  @media (max-width: 500px) {
+    * {
+      max-width: 500px;
+    }
+  }
