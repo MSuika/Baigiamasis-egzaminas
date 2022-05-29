@@ -8,12 +8,10 @@ $green: #41D395;
     max-width: 100%!important;
     max-height: 100%;
     scroll-behavior: smooth;
-    overflow-x: hidden;
   }
 
   @media (max-width: 500px) {
     html {
       width: 500px!important;
-      overflow-x: hidden;
     }
   }
