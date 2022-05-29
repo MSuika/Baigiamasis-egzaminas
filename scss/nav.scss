@@ -110,11 +110,16 @@ nav {
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        margin-right: 0;  
+        margin-right: 0;
     }
     .dektop-navigation ul li {
         display: none;
     }
+
+    .dektop-navigation img {
+        width: 100%;
+    }
+
     .mobile-navigation {
         position: absolute;
         z-index: 1;
